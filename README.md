@@ -50,7 +50,7 @@ To provide context and further analysis of the network traffic, I used Zeek with
 
 From a http alert identified with Snort, I investigated the http.log, used zeek-cut to parse the log data, and used grep to find the alert (an http request being made to a wordpress plugin called help.php). The output shows redirect and success code (302/200), and commands that clearly show the attacker enumerating the web server. 
 
-![Parsing the HTTP zeek log](Screenshots/Parsing-Zeek-Logs.png)
+![Parsing the HTTP zeek log](Screenshots/Parsing-Logs-Zeek.png)
 
 ## Takeaways:
 
